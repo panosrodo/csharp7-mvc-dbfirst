@@ -81,7 +81,7 @@ public partial class Mvc7DbContext : DbContext
         modelBuilder.Entity<Teacher>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK__Teachers__3214EC072F87845B");
-
+            
             entity.HasIndex(e => e.Institution, "IX_Teachers_Institution");
 
             entity.HasIndex(e => e.UserId, "IX_Teachers_UserId").IsUnique();

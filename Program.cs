@@ -10,6 +10,8 @@ namespace SchoolApp
             var builder = WebApplication.CreateBuilder(args);
 
             var connString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+            // AddDbContext is scoped - per request a new instance of dbcontext is created
             builder.Services.AddDbContext<Mvc7DbContext>(options => options.UseSqlServer(connString));
 
             // Add services to the container.
