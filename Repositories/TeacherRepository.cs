@@ -14,7 +14,9 @@ namespace SchoolApp.Repositories
 
         public async Task<Teacher?> GetByPhoneNumberAsync(string? phoneNumber)
         {
-            return await context.Teachers.Where(t => t.PhoneNumber == phoneNumber).FirstOrDefaultAsync();
+            return await context.Teachers
+                .Where(t => t.PhoneNumber == phoneNumber)
+                .FirstOrDefaultAsync();
         }
         public async Task<List<Course>> GetTeacherCoursesAsync(int id)
         {
@@ -58,6 +60,7 @@ namespace SchoolApp.Repositories
                 .CountAsync();
 
             int skip = (pageNumber - 1) * pageSize;
+
             var usersWithTeacherRole = await context.Users
                 .Where(u => u.UserRole == UserRole.Teacher)
                 .Include(u => u.Teacher)
@@ -74,7 +77,8 @@ namespace SchoolApp.Repositories
             };
         }
 
-        public async Task<PaginatedResult<User>> GetPaginatedUsersTeachersFilteredAsync(int pageNumber, int pageSize, List<Func<User, bool>> predicates)
+        public async Task<PaginatedResult<User>> GetPaginatedUsersTeachersFilteredAsync(int pageNumber,
+            int pageSize, List<Func<User, bool>> predicates)
         {
             var totalRecords = await context.Users
                .Where(u => u.UserRole == UserRole.Teacher)
