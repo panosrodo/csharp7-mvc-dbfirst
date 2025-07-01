@@ -4,7 +4,7 @@ namespace SchoolApp.Repositories
 {
     public interface IUnitOfWork
     {
-        // UserRepository ToDO
+        UserRepository UserRepository { get; }
         TeacherRepository TeacherRepository { get; }
         StudentRepository StudentRepository { get; }
         CourseRepository CourseRepository { get; }
