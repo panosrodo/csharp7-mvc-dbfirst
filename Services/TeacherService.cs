@@ -4,6 +4,7 @@ using SchoolApp.DTO;
 using SchoolApp.Exceptions;
 using SchoolApp.Repositories;
 using SchoolApp.Security;
+using Serilog;
 
 namespace SchoolApp.Services
 {
@@ -13,11 +14,11 @@ namespace SchoolApp.Services
         private readonly IMapper _mapper;
         private readonly ILogger<TeacherService> _logger;
 
-        public TeacherService(IUnitOfWork unitOfWork, IMapper mapper, ILogger<TeacherService> logger)
+        public TeacherService(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
-            _logger = logger;
+            _logger = new LoggerFactory().AddSerilog().CreateLogger<TeacherService>();
         }
 
         public async Task<List<User>> GetAllUsersTeachersAsync()
@@ -125,4 +126,3 @@ namespace SchoolApp.Services
         }
     }
 }
-

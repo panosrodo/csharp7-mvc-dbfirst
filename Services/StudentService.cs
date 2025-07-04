@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using SchoolApp.Data;
 using SchoolApp.Repositories;
+using Serilog;
 
 namespace SchoolApp.Services
 {
@@ -10,12 +11,14 @@ namespace SchoolApp.Services
         private readonly IMapper _mapper;
         private readonly ILogger<StudentService> _logger;
 
-        public StudentService(IUnitOfWork unitOfWork, IMapper mapper, ILogger<StudentService> logger)
+        public StudentService(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
-            _logger = logger;
+            _logger = new LoggerFactory().AddSerilog().CreateLogger<StudentService>();
         }
+
+
 
         public async Task<bool> DeleteStudentAsync(int id)
         {
@@ -24,7 +27,7 @@ namespace SchoolApp.Services
             try
             {
                 studentDeleted = await _unitOfWork.StudentRepository.DeleteAsync(id);
-                _logger.LogInformation("{Message}", "Student with id: " + id + " delted");
+                _logger.LogInformation("{Message}", "Student with id: " + id + " deleted.");
             }
             catch (Exception ex)
             {
