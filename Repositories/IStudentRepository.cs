@@ -6,6 +6,6 @@ namespace SchoolApp.Repositories
     {
         Task<List<Course>> GetStudentCoursesAsync(int id);
         Task<Student?> GetByAM(string? am);
-        Task<List<User>> GetAllUserStudentsAsync();
+        Task<List<User>> GetAllUsersStudentsAsync();
     }
 }

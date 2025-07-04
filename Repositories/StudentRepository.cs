@@ -23,7 +23,7 @@ namespace SchoolApp.Repositories
                 .SelectMany(s => s.Courses)
                 .ToListAsync();
         }
-        public async Task<List<User>> GetAllUserStudentsAsync()
+        public async Task<List<User>> GetAllUsersStudentsAsync()
         {
             return await context.Users
                 .Where(u => u.UserRole == UserRole.Student)
