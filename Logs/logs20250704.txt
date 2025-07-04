@@ -334,3 +334,284 @@ WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0"
 [04-07-2025 13:25:38184 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Student/Signup""" - null null
 [04-07-2025 13:25:38199 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Student/Signup""" - 404 0 null 14.7066ms
 [04-07-2025 13:25:38206 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:5001""""/Student/Signup", Response status code: 404
+[04-07-2025 13:32:37672 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager ] User profile is available. Using '"C:\Users\Brandon\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[04-07-2025 13:32:37818 +03:00 Microsoft.Hosting.Lifetime ] Now listening on: "https://localhost:5001"
+[04-07-2025 13:32:37820 +03:00 Microsoft.Hosting.Lifetime ] Now listening on: "http://localhost:5000"
+[04-07-2025 13:32:37891 +03:00 Microsoft.Hosting.Lifetime ] Application started. Press Ctrl+C to shut down.
+[04-07-2025 13:32:37893 +03:00 Microsoft.Hosting.Lifetime ] Hosting environment: "Development"
+[04-07-2025 13:32:37895 +03:00 Microsoft.Hosting.Lifetime ] Content root path: "C:\Users\Brandon\source\repos\Web7MVCDBFirst\SchoolApp"
+[04-07-2025 13:32:38393 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-07-2025 13:32:38503 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:32:38534 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:32:38701 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-07-2025 13:32:38822 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 124.7243ms.
+[04-07-2025 13:32:38829 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 292.5823ms
+[04-07-2025 13:32:38832 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:32:38840 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 449.2604ms
+[04-07-2025 13:32:38931 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:32:38931 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-07-2025 13:32:38938 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 7.6872ms
+[04-07-2025 13:32:38972 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 41.1487ms
+[04-07-2025 13:32:41677 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - null null
+[04-07-2025 13:32:41687 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"405 HTTP Method Not Supported"'
+[04-07-2025 13:32:41689 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"405 HTTP Method Not Supported"'
+[04-07-2025 13:32:41691 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - 405 0 null 13.7721ms
+[04-07-2025 13:32:44030 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-07-2025 13:32:44039 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:32:44041 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:32:44052 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-07-2025 13:32:44059 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 7.1397ms.
+[04-07-2025 13:32:44062 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 19.1924ms
+[04-07-2025 13:32:44063 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:32:44066 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 35.3362ms
+[04-07-2025 13:32:44181 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:32:44185 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 4.8229ms
+[04-07-2025 13:32:45057 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Student/Signup""" - null null
+[04-07-2025 13:32:45068 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Student/Signup""" - 404 0 null 10.869ms
+[04-07-2025 13:32:45075 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:5001""""/Student/Signup", Response status code: 404
+[04-07-2025 13:32:46798 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-07-2025 13:32:46805 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:32:46806 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:32:46811 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-07-2025 13:32:46815 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 3.7669ms.
+[04-07-2025 13:32:46817 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 8.025ms
+[04-07-2025 13:32:46819 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:32:46820 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 21.9774ms
+[04-07-2025 13:32:46979 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:32:46983 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 4.4522ms
+[04-07-2025 13:32:59068 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - null null
+[04-07-2025 13:32:59075 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"405 HTTP Method Not Supported"'
+[04-07-2025 13:32:59076 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"405 HTTP Method Not Supported"'
+[04-07-2025 13:32:59078 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - 405 0 null 9.5916ms
+[04-07-2025 13:33:04967 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/SignUp""" - null null
+[04-07-2025 13:33:04973 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"405 HTTP Method Not Supported"'
+[04-07-2025 13:33:04974 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"405 HTTP Method Not Supported"'
+[04-07-2025 13:33:04976 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/SignUp""" - 405 0 null 9.6366ms
+[04-07-2025 13:33:06131 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-07-2025 13:33:06136 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:33:06137 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:33:06140 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-07-2025 13:33:06144 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 3.7741ms.
+[04-07-2025 13:33:06145 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 5.8786ms
+[04-07-2025 13:33:06147 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:33:06150 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 19.133ms
+[04-07-2025 13:33:06311 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:33:06315 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 4.0816ms
+[04-07-2025 13:33:07726 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/""" - "application/x-www-form-urlencoded" 221
+[04-07-2025 13:33:07730 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:33:07744 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(SchoolApp.DTO.UserLoginDTO)" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:33:09176 +03:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Email], [u].[Firstname], [u].[Lastname], [u].[Password], [u].[UserRole], [u].[Username]
+FROM [Users] AS [u]
+WHERE 0 = 1"
+[04-07-2025 13:33:09204 +03:00 SchoolApp.Services.UserService ] "User:  found and returned."
+[04-07-2025 13:33:09209 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-07-2025 13:33:09213 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 3.9429ms.
+[04-07-2025 13:33:09214 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 1468.2736ms
+[04-07-2025 13:33:09216 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:33:09224 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 1498.5475ms
+[04-07-2025 13:33:09229 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:33:09233 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 3.3297ms
+[04-07-2025 13:33:09235 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-07-2025 13:33:09254 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 18.943ms
+[04-07-2025 13:33:21686 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Student/Signup""" - null null
+[04-07-2025 13:33:21692 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Student/Signup""" - 404 0 null 5.8567ms
+[04-07-2025 13:33:21696 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:5001""""/Student/Signup", Response status code: 404
+[04-07-2025 13:35:44388 +03:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager ] User profile is available. Using '"C:\Users\Brandon\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[04-07-2025 13:35:44533 +03:00 Microsoft.Hosting.Lifetime ] Now listening on: "https://localhost:5001"
+[04-07-2025 13:35:44536 +03:00 Microsoft.Hosting.Lifetime ] Now listening on: "http://localhost:5000"
+[04-07-2025 13:35:44609 +03:00 Microsoft.Hosting.Lifetime ] Application started. Press Ctrl+C to shut down.
+[04-07-2025 13:35:44611 +03:00 Microsoft.Hosting.Lifetime ] Hosting environment: "Development"
+[04-07-2025 13:35:44612 +03:00 Microsoft.Hosting.Lifetime ] Content root path: "C:\Users\Brandon\source\repos\Web7MVCDBFirst\SchoolApp"
+[04-07-2025 13:35:44928 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-07-2025 13:35:45035 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:35:45071 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:35:45242 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-07-2025 13:35:45363 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 125.8916ms.
+[04-07-2025 13:35:45371 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 296.2071ms
+[04-07-2025 13:35:45374 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:35:45382 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 456.0054ms
+[04-07-2025 13:35:45474 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-07-2025 13:35:45474 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:35:45485 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 10.9434ms
+[04-07-2025 13:35:45511 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 37.0348ms
+[04-07-2025 13:35:46696 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - null null
+[04-07-2025 13:35:46707 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)"'
+[04-07-2025 13:35:46710 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"SignUp\", controller = \"Teacher\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult SignUp()" on controller "SchoolApp.Controllers.TeacherController" ("SchoolApp").
+[04-07-2025 13:35:46723 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "SignUp".
+[04-07-2025 13:35:46778 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "SignUp" executed in 56.0346ms.
+[04-07-2025 13:35:46780 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)" in 67.6593ms
+[04-07-2025 13:35:46782 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)"'
+[04-07-2025 13:35:46784 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - 200 null "text/html; charset=utf-8" 88.6825ms
+[04-07-2025 13:35:46794 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:35:46798 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 4.2332ms
+[04-07-2025 13:35:46798 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-07-2025 13:35:46819 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 20.7957ms
+[04-07-2025 13:35:48517 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-07-2025 13:35:48526 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:35:48527 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:35:48532 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-07-2025 13:35:48537 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 5.4215ms.
+[04-07-2025 13:35:48539 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 9.5073ms
+[04-07-2025 13:35:48541 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:35:48543 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 26.1937ms
+[04-07-2025 13:35:48552 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:35:48556 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 3.8606ms
+[04-07-2025 13:35:49667 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Student/Signup""" - null null
+[04-07-2025 13:35:49674 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Student/Signup""" - 404 0 null 6.9251ms
+[04-07-2025 13:35:49678 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:5001""""/Student/Signup", Response status code: 404
+[04-07-2025 13:35:51148 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-07-2025 13:35:51154 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:35:51157 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:35:51160 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-07-2025 13:35:51164 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 3.8149ms.
+[04-07-2025 13:35:51166 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 6.1326ms
+[04-07-2025 13:35:51168 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:35:51170 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 22.0197ms
+[04-07-2025 13:35:51344 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:35:51350 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 5.3089ms
+[04-07-2025 13:35:53075 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - null null
+[04-07-2025 13:35:53081 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)"'
+[04-07-2025 13:35:53082 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"SignUp\", controller = \"Teacher\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult SignUp()" on controller "SchoolApp.Controllers.TeacherController" ("SchoolApp").
+[04-07-2025 13:35:53085 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "SignUp".
+[04-07-2025 13:35:53089 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "SignUp" executed in 4.6282ms.
+[04-07-2025 13:35:53091 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)" in 7.0724ms
+[04-07-2025 13:35:53093 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.TeacherController.SignUp (SchoolApp)"'
+[04-07-2025 13:35:53095 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Teacher/Signup""" - 200 null "text/html; charset=utf-8" 19.8835ms
+[04-07-2025 13:35:53105 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:35:53108 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 2.8091ms
+[04-07-2025 13:35:53110 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-07-2025 13:35:53121 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 11.1847ms
+[04-07-2025 13:37:38487 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/Teacher/Signup""" - "application/x-www-form-urlencoded" 436
+[04-07-2025 13:37:38496 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.TeacherController.Signup (SchoolApp)"'
+[04-07-2025 13:37:38510 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Signup\", controller = \"Teacher\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(SchoolApp.DTO.TeacherSignupDTO)" on controller "SchoolApp.Controllers.TeacherController" ("SchoolApp").
+[04-07-2025 13:37:38535 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Signup".
+[04-07-2025 13:37:38542 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Signup" executed in 7.6606ms.
+[04-07-2025 13:37:38544 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.TeacherController.Signup (SchoolApp)" in 30.7323ms
+[04-07-2025 13:37:38545 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.TeacherController.Signup (SchoolApp)"'
+[04-07-2025 13:37:38547 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/Teacher/Signup""" - 200 null "text/html; charset=utf-8" 59.7384ms
+[04-07-2025 13:37:38558 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:37:38560 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-07-2025 13:37:38561 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 3.4866ms
+[04-07-2025 13:37:38569 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 8.4729ms
+[04-07-2025 13:37:50133 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/Teacher/Signup""" - "application/x-www-form-urlencoded" 437
+[04-07-2025 13:37:50138 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.TeacherController.Signup (SchoolApp)"'
+[04-07-2025 13:37:50139 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Signup\", controller = \"Teacher\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(SchoolApp.DTO.TeacherSignupDTO)" on controller "SchoolApp.Controllers.TeacherController" ("SchoolApp").
+[04-07-2025 13:37:50145 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Signup".
+[04-07-2025 13:37:50148 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Signup" executed in 3.2056ms.
+[04-07-2025 13:37:50150 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.TeacherController.Signup (SchoolApp)" in 6.3368ms
+[04-07-2025 13:37:50151 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.TeacherController.Signup (SchoolApp)"'
+[04-07-2025 13:37:50153 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/Teacher/Signup""" - 200 null "text/html; charset=utf-8" 20.4251ms
+[04-07-2025 13:37:50164 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:37:50167 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-07-2025 13:37:50170 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 5.9551ms
+[04-07-2025 13:37:50177 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 10.395ms
+[04-07-2025 13:38:08534 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/Teacher/Signup""" - "application/x-www-form-urlencoded" 444
+[04-07-2025 13:38:08540 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.TeacherController.Signup (SchoolApp)"'
+[04-07-2025 13:38:08542 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Signup\", controller = \"Teacher\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Signup(SchoolApp.DTO.TeacherSignupDTO)" on controller "SchoolApp.Controllers.TeacherController" ("SchoolApp").
+[04-07-2025 13:38:09989 +03:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("51"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Email], [u].[Firstname], [u].[Lastname], [u].[Password], [u].[UserRole], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0"
+[04-07-2025 13:38:10486 +03:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("5"ms) [Parameters=["@__phoneNumber_0='?' (Size = 20)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [t].[Id], [t].[Institution], [t].[PhoneNumber], [t].[UserId]
+FROM [Teachers] AS [t]
+WHERE [t].[PhoneNumber] = @__phoneNumber_0"
+[04-07-2025 13:38:10648 +03:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("7"ms) [Parameters=["@p0='?' (Size = 50), @p1='?' (Size = 50), @p2='?' (Size = 50), @p3='?' (Size = 60), @p4='?' (Size = 50), @p5='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Firstname], [Lastname], [Password], [UserRole], [Username])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);"
+[04-07-2025 13:38:10674 +03:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("4"ms) [Parameters=["@p6='?' (Size = 50), @p7='?' (Size = 20), @p8='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Teachers] ([Institution], [PhoneNumber], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p6, @p7, @p8);"
+[04-07-2025 13:38:10701 +03:00 SchoolApp.Services.TeacherService ] "Teacher: SchoolApp.Data.Teacher signed up successfully."
+[04-07-2025 13:38:10706 +03:00 Microsoft.AspNetCore.Mvc.RedirectToActionResult ] Executing RedirectResult, redirecting to "/".
+[04-07-2025 13:38:10708 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.TeacherController.Signup (SchoolApp)" in 2163.3233ms
+[04-07-2025 13:38:10709 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.TeacherController.Signup (SchoolApp)"'
+[04-07-2025 13:38:10713 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-07-2025 13:38:10716 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/Teacher/Signup""" - 302 0 null 2182.7342ms
+[04-07-2025 13:38:10717 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:38:10721 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:38:10723 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-07-2025 13:38:10725 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 2.1633ms.
+[04-07-2025 13:38:10727 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 3.9053ms
+[04-07-2025 13:38:10728 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:38:10730 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 16.6226ms
+[04-07-2025 13:38:10739 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:38:10743 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 3.6737ms
+[04-07-2025 13:38:10745 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-07-2025 13:38:10753 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 8.2278ms
+[04-07-2025 13:40:16536 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/""" - "application/x-www-form-urlencoded" 239
+[04-07-2025 13:40:16544 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:40:16551 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Login(SchoolApp.DTO.UserLoginDTO)" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:40:16647 +03:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("8"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Email], [u].[Firstname], [u].[Lastname], [u].[Password], [u].[UserRole], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0 OR [u].[Email] = @__username_0"
+[04-07-2025 13:40:16912 +03:00 SchoolApp.Services.UserService ] "User: SchoolApp.Data.User found and returned."
+[04-07-2025 13:40:16918 +03:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] AuthenticationScheme: "Cookies" signed in.
+[04-07-2025 13:40:16920 +03:00 Microsoft.AspNetCore.Mvc.RedirectToActionResult ] Executing RedirectResult, redirecting to "/User/Index".
+[04-07-2025 13:40:16921 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 367.7353ms
+[04-07-2025 13:40:16923 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:40:16925 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/""" - 302 0 null 388.1641ms
+[04-07-2025 13:40:16927 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/User/Index""" - null null
+[04-07-2025 13:40:16933 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Index (SchoolApp)"'
+[04-07-2025 13:40:16935 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Index\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:40:16938 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Index".
+[04-07-2025 13:40:16961 +03:00 Microsoft.EntityFrameworkCore.Database.Command ] Executed DbCommand ("2"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[Email], [u].[Firstname], [u].[Lastname], [u].[Password], [u].[UserRole], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__username_0"
+[04-07-2025 13:40:16968 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Index" executed in 30.0733ms.
+[04-07-2025 13:40:16970 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Index (SchoolApp)" in 32.3894ms
+[04-07-2025 13:40:16972 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Index (SchoolApp)"'
+[04-07-2025 13:40:16973 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/User/Index""" - 200 null "text/html; charset=utf-8" 46.3148ms
+[04-07-2025 13:40:16988 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-07-2025 13:40:16991 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:40:16996 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 7.7335ms
+[04-07-2025 13:40:16996 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 4.5578ms
+[04-07-2025 13:40:22593 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/User/LogOut""" - null null
+[04-07-2025 13:40:22599 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.LogOut (SchoolApp)"'
+[04-07-2025 13:40:22604 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"LogOut\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogOut()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:40:22609 +03:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] AuthenticationScheme: "Cookies" signed out.
+[04-07-2025 13:40:22610 +03:00 Microsoft.AspNetCore.Mvc.RedirectToActionResult ] Executing RedirectResult, redirecting to "/".
+[04-07-2025 13:40:22611 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.LogOut (SchoolApp)" in 4.8424ms
+[04-07-2025 13:40:22612 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.LogOut (SchoolApp)"'
+[04-07-2025 13:40:22614 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/User/LogOut""" - 302 0 null 21.5665ms
+[04-07-2025 13:40:22617 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-07-2025 13:40:22622 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:40:22623 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:40:22626 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-07-2025 13:40:22628 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 2.2377ms.
+[04-07-2025 13:40:22629 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 4.0231ms
+[04-07-2025 13:40:22631 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:40:22633 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 16.1925ms
+[04-07-2025 13:40:22642 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:40:22645 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 3.635ms
+[04-07-2025 13:40:22648 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-07-2025 13:40:22655 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 7.3135ms
+[04-07-2025 13:40:24209 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/User/LogOut""" - null null
+[04-07-2025 13:40:24215 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.LogOut (SchoolApp)"'
+[04-07-2025 13:40:24216 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"LogOut\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogOut()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:40:24219 +03:00 Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler ] AuthenticationScheme: "Cookies" signed out.
+[04-07-2025 13:40:24220 +03:00 Microsoft.AspNetCore.Mvc.RedirectToActionResult ] Executing RedirectResult, redirecting to "/".
+[04-07-2025 13:40:24221 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.LogOut (SchoolApp)" in 2.8349ms
+[04-07-2025 13:40:24223 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.LogOut (SchoolApp)"'
+[04-07-2025 13:40:24224 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/User/LogOut""" - 302 0 null 14.7018ms
+[04-07-2025 13:40:24226 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[04-07-2025 13:40:24232 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:40:24234 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Route matched with "{action = \"Login\", controller = \"User\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Login()" on controller "SchoolApp.Controllers.UserController" ("SchoolApp").
+[04-07-2025 13:40:24236 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executing ViewResult, running view "Login".
+[04-07-2025 13:40:24239 +03:00 Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor ] Executed ViewResult - view "Login" executed in 2.6806ms.
+[04-07-2025 13:40:24241 +03:00 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker ] Executed action "SchoolApp.Controllers.UserController.Login (SchoolApp)" in 4.426ms
+[04-07-2025 13:40:24242 +03:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"SchoolApp.Controllers.UserController.Login (SchoolApp)"'
+[04-07-2025 13:40:24243 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 16.9952ms
+[04-07-2025 13:40:24253 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - null null
+[04-07-2025 13:40:24256 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_framework/aspnetcore-browser-refresh.js""" - 200 13754 "application/javascript; charset=utf-8" 3.0206ms
+[04-07-2025 13:40:24259 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - null null
+[04-07-2025 13:40:24267 +03:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 7.9179ms
